@@ -24,9 +24,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-//        $article = Product::find(1);
+        $page = Product::find(1);
 
-        return view('index',compact('article'));
+        return view('index',compact('page'));
     }
 
 
