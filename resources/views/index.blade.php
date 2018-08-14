@@ -16,5 +16,5 @@
 @section('meta_keywords',$page->meta_keywords)
 
 @section('content')
-    111
+
 @endsection

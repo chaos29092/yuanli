@@ -146,6 +146,23 @@
                 </div>
             </div>
         </div>
+        
+        <div id="searchForm" style="background-image: url(/assets/images/hecheng.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-text mx-auto">
+                        <div class="form-group m-5">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-append">
+                              <button class="btn btn-primary" type="button">Go!</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         @yield('content')
     </div>
     <div class="footer">
